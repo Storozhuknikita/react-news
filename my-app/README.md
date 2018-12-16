@@ -1,7 +1,11 @@
-My first App based on React
+My first App is based on React
 
 - React Create App
 - Bootstrap
+
+This App showes news and adds news.
+
+This project was made on course in GeekUniversity GeekBrains.ru
 ## Available Scripts
 
 In the project directory, you can run:
