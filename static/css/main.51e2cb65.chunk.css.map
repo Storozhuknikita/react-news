@@ -1,0 +1,1 @@
+{"version":3,"sources":["/Users/nikitastorozuk/sites/react-course/my-app/src/components/news/news.css","main.51e2cb65.chunk.css"],"names":[],"mappings":"AAAA,MACI,oBAAsB,CCCzB","file":"main.51e2cb65.chunk.css","sourcesContent":[".news {\n    border: 1px solid red;\n}",".news {\n    border: 1px solid red;\n}\n"]}
