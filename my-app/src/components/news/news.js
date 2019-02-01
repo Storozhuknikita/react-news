@@ -42,7 +42,7 @@ class News extends React.Component {
     };
 
     /*
-    * Функция вывода новости
+    * Вывод новости
      */
     renderNews(){
         return this.props.items.map((item, index) => {
