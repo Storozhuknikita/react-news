@@ -1,5 +1,7 @@
 import React from "react";
 
+import Toogle from '../toogle/toogle';
+
 import './news.css';
 
 
@@ -45,18 +47,21 @@ class News extends React.Component {
     renderNews(){
         return this.props.items.map((item, index) => {
             return (
-                <div className="card" key={item.id}>
+                <div className="card" key={index}>
 
                     <div className="card-header">
                         {item.title}
                     </div>
 
                     <div className="card-body">
-                        { item.visible ? <div className={'news_full_desc'}>{item.full_desc}</div> : <div className={'news_desc'}>{item.desc}</div> }
+                        {item.desc}
 
-                        <a href="#" onClick={ (e) => this.handleClick(e)}>
-                            { item.visible ? 'Скрыть' : 'Подробнее' }
-                        </a>
+                        <Toogle>
+                            <p>
+                                {'Полное описание..'}
+                            </p>
+                        </Toogle>
+
                     </div>
 
                 </div>
@@ -64,16 +69,6 @@ class News extends React.Component {
         })
     }
 
-    /*
-    * Обработка клика - скрыть/открыть
-     */
-    handleClick(e){
-        e.preventDefault();
-
-        this.setState({
-            visible: !this.state.visible
-        });
-    }
 
 }
 

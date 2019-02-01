@@ -62,18 +62,14 @@ class App extends React.Component {
             <div className="container">
                 <div className="card">
                     <div className="card-header">Новости</div>
-
                     <div className="card-body">
                         <div className="form-group">
-                            <label for="title">Заголовок</label>
+                            <label>Заголовок</label>
                             <input className="form-control" type="text" id="title" ref={ (inputtitle) => { this.inputNewsTitle = inputtitle; }}/><br/>
-
-                            <label for="desc">Анонс</label>
+                            <label>Анонс</label>
                             <input className="form-control" type="text" id="desc" ref={ (inputdesc) => { this.inputNewsDesc = inputdesc; }}/><br/>
-
-                            <label for="full_desc">Полный текст</label>
+                            <label>Полный текст</label>
                             <input className="form-control" type="text" id="full_desc" ref={ (inputfulldesc) => { this.inputNewsFullDesc = inputfulldesc; }}/><br/>
-
                             <button className="btn btn-primary btn-block" onClick={ () => this.handleClick() }>
                                 Добавить новость
                             </button>
