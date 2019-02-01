@@ -1,15 +1,15 @@
 {
-  "main.css": "/Storozhuknikita/react-news.git/static/css/main.51e2cb65.chunk.css",
-  "main.js": "/Storozhuknikita/react-news.git/static/js/main.c09f052d.chunk.js",
-  "main.js.map": "/Storozhuknikita/react-news.git/static/js/main.c09f052d.chunk.js.map",
-  "static/css/1.1d7ec565.chunk.css": "/Storozhuknikita/react-news.git/static/css/1.1d7ec565.chunk.css",
-  "static/js/1.c9d6d940.chunk.js": "/Storozhuknikita/react-news.git/static/js/1.c9d6d940.chunk.js",
-  "static/js/1.c9d6d940.chunk.js.map": "/Storozhuknikita/react-news.git/static/js/1.c9d6d940.chunk.js.map",
-  "runtime~main.js": "/Storozhuknikita/react-news.git/static/js/runtime~main.9bb2cde7.js",
-  "runtime~main.js.map": "/Storozhuknikita/react-news.git/static/js/runtime~main.9bb2cde7.js.map",
-  "static/css/main.51e2cb65.chunk.css.map": "/Storozhuknikita/react-news.git/static/css/main.51e2cb65.chunk.css.map",
-  "static/css/1.1d7ec565.chunk.css.map": "/Storozhuknikita/react-news.git/static/css/1.1d7ec565.chunk.css.map",
-  "index.html": "/Storozhuknikita/react-news.git/index.html",
-  "precache-manifest.deddc0968741ff05ad7ead221b59b81c.js": "/Storozhuknikita/react-news.git/precache-manifest.deddc0968741ff05ad7ead221b59b81c.js",
-  "service-worker.js": "/Storozhuknikita/react-news.git/service-worker.js"
+  "main.css": "/static/css/main.51e2cb65.chunk.css",
+  "main.js": "/static/js/main.c09f052d.chunk.js",
+  "main.js.map": "/static/js/main.c09f052d.chunk.js.map",
+  "static/css/1.1d7ec565.chunk.css": "/static/css/1.1d7ec565.chunk.css",
+  "static/js/1.c9d6d940.chunk.js": "/static/js/1.c9d6d940.chunk.js",
+  "static/js/1.c9d6d940.chunk.js.map": "/static/js/1.c9d6d940.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.51e2cb65.chunk.css.map": "/static/css/main.51e2cb65.chunk.css.map",
+  "static/css/1.1d7ec565.chunk.css.map": "/static/css/1.1d7ec565.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.d5fb88117916e422ee4ffb4790be046e.js": "/precache-manifest.d5fb88117916e422ee4ffb4790be046e.js",
+  "service-worker.js": "/service-worker.js"
 }
