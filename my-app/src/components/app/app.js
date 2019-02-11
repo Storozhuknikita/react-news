@@ -1,10 +1,15 @@
 import React from "react";
-
-
+import {connect} from "react-redux";
 import News from "../news/news";
 
-class App extends React.Component {
+function mapStateToProps(state) {
+    console.log(state);
+    return {
+        user: state
+    }
+}
 
+class App extends React.Component {
 
     /*
     * Конструктор
@@ -62,6 +67,9 @@ class App extends React.Component {
             <div className="container">
                 <div className="card">
                     <div className="card-header">Новости</div>
+                    <p className="lead">
+                        Меня зовут {this.props.user}
+                    </p>
                     <div className="card-body">
                         <div className="form-group">
                             <label>Заголовок</label>
@@ -158,4 +166,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default connect(mapStateToProps)(App);

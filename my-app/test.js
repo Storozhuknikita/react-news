@@ -13,6 +13,7 @@ function updateState(state, action) {
 
 
 class Store {
+
     constructor(updateState, state){
         this._updateState = updateState;
         this._state = state;
@@ -31,7 +32,6 @@ class Store {
     subscribe(callback){
         this._callback.push(callback);
     }
-
 
 }
 
