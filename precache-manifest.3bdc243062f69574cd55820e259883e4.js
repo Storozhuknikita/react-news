@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "cd06f8fbca7234fa3a10a5bc12a42205",
-    "url": "/react-course-news/static/media/icon_close_s_white.cd06f8fb.svg"
+    "revision": "e81304e1ba9b00f38571aa084a3b5cfc",
+    "url": "/react-course-news/static/media/icon_close_l_white.e81304e1.svg"
   },
   {
     "revision": "a7185a5b263ff15530d0",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/react-course-news/static/js/runtime~main.5585a023.js"
   },
   {
-    "revision": "e81304e1ba9b00f38571aa084a3b5cfc",
-    "url": "/react-course-news/static/media/icon_close_l_white.e81304e1.svg"
+    "revision": "9fdfa24f2ace08fd45da3821d1531479",
+    "url": "/react-course-news/static/media/icon_close_l_black.9fdfa24f.svg"
   },
   {
     "revision": "5d2c2756ab278b3f84735376af0c0284",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/react-course-news/static/media/icon_close_xl_black.217cfbbc.svg"
   },
   {
-    "revision": "9fdfa24f2ace08fd45da3821d1531479",
-    "url": "/react-course-news/static/media/icon_close_l_black.9fdfa24f.svg"
+    "revision": "cd06f8fbca7234fa3a10a5bc12a42205",
+    "url": "/react-course-news/static/media/icon_close_s_white.cd06f8fb.svg"
   },
   {
     "revision": "af6676b2ef164647620b1e1ea84bb7c2",
